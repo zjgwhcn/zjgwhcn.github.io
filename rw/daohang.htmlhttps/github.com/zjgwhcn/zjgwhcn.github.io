@@ -20,6 +20,8 @@
 </style>
 
 <body>
+	<p>捷径：[jié jìng][释义]近便的小路;喻不循正轨，贪便图快的做法;喻速成的方法或手段。</p>
+	
 <table  border="1"  color=#FF0000>   <!--如下定义表格-->
 <tr>
 	<td><a href="http://www.chongbuluo.com/">1虫部</a></td>
