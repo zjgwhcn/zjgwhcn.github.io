@@ -81,6 +81,7 @@
 	<td><a href="http://www.w3school.com.cn/index.html">8w3c</a></td>
 	<td><a href="http://www.duanliang920.com/">9段博</a></td>	
 </tr>
+<p>捷径：[jié jìng][释义]近便的小路;喻不循正轨，贪便图快的做法;喻速成的方法或手段。</p>
 <tr>
 	<td><a href="https://www.mlook.mobi/">1mlok</a></td>
 	<td><a href="https://bbs.et8.net/bbs/">2ccf</a></td>
