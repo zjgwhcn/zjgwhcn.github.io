@@ -1,93 +1,122 @@
-	<!DOCTYPE HTML>    <!--DOCTYPE:"告知浏览器文档所使用的 HTML 规范-->
-<html lang="zh-CN">   <!--LANG:告诉各个浏览器用的这种字符集-->
-<head>                <!--HEAD:这是被<html>包含的头文件头-->
-<meta charset="UTF-8">                      <!--CHARSET:设置编码格式 为 utf-8-->
-<title>素书</title>                           <!--TITLE:这是被<head>包含的此网页的名字标记-->
-<meta name="keywords" content="未名日记博客" />      <!--NAME:把 content 属性关联到一个名称-->
-<meta name="description" content="" />
-<link rel="stylesheet" href="css/index.css"/>      <!--rel:规定当前文档与被链接文档之间的关系。HREF:规定被链接文档的位置。-->
-<link rel="stylesheet" href="css/style.css"/>
-<script type="text/javascript" src="js/jquery1.42.min.js"></script>       <!--SRC:规定外部脚本文件的 URL。-->
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">   <!--"gb2312"-->
+    <title>常用导航</title>
+    <meta name="keywords" content="常用导航">
+    <meta name="description" content="常用导航，一个个人简约导航。">
+    <base target="_blank">
+</head>
 
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<![endif]-->
 <style type="text/css">
     body{
 		font-family:Arial,Verdana,sans-sefif;color:#111111;}
-	#header{
-		font-family:Arial,Verdana,sans-sefif;color:red;}<--定义ID样式-->
+	table{
+		width:100%;height:100%;border:2;align:center;}<!--border:2px solid #665544;-->
+	tr{
+		align:left;}
+	tr{
+		align:left;}
 </style>
-</head>
-<body>         <!--这是包含网页需要做的所有事情标记-->
-    <!--header 开始t-->
-  	      <p>
-		  <a href="https://github.com/zjgwhcn">笔记避免重复</a>
-	      </p> 
-	   	   
-      </div>
-     <!--header 结束-->
-	    <!--nav-->
-     <div id="nav">
-        <ul>
-         <li><a href="index.html">首页</a></li>
-         <li><a href="about.html">关于我</a></li>
-         <li><a href="shuo.html">碎言碎语</a></li>
-         <li><a href="riji.html">个人日记</a></li>
-         <li><a href="xc.html">相册展示</a></li>
-         <li><a href="learn.html">学无止境</a></li>
-         <li><a href="guestbook.html">留言板</a></li>
-         <div class="clear"></div>
-        </ul>
-      </div>
-       <!--nav end-->
-	
-    <!--content start-->
-    <div id="content">
-         <!--left-->
-         <div class="left" id="c_left">
-           <div class="s_tuijian">
-           <h2>文章<span>推荐</span></h2>
-           </div>
-          <div class="content_text">
-           <!--wz-->
-           <div class="wz">
-            <h3><a href="#" title="浅谈：html5和html的区别">浅谈：html5和html的区别</a></h3>
-             <dl>
-               <dt><img src="images/s.jpg" width="200"  height="123" alt=""></dt>
-               <dd>
-                 <p class="dd_text_1">最近看群里聊天聊得最火热的莫过于手机网站和html5这两个词。可能有人会问，这两者有什么关系呢？随着这移动互联
-                 网快速发展的时代，尤其是4G时代已经来临的时刻，加上微软对"XP系统"不提供更新补丁、维护的情况下。
-               html5+css3也逐渐的成为新一代web前端技术.....</p>
-               <p class="dd_text_2">
-               <span class="left author">未名</span><span class="left sj">时间:2014-8-9</span>
-               <span class="left fl">分类:<a href="#" title="学无止境">学无止境</a></span><span class="left yd"><a href="#" title="阅读全文">阅读全文</a>
-               </span>
-                <div class="clear"></div>
-               </p>
-               </dd>
-               <div class="clear"></div>
-             </dl>
-            </div>
-           <!--wz end-->
-            <!--wz-->
-           <div class="wz">
-            <h3><a href="#" title="Django 基础教程">Django 基础教程</a></h3>
-             <dl>
-               <dt><img src="images/s1.jpg" width="200" height="123" alt=""></dt>
-               <dd>
-                 <p class="dd_text_1">这是第一篇Django 简介 »
-django Django 是用Python开发的一个免费开源的Web框架，可以用于快速搭建高性能，优雅的网站！
- 你一定可以学会，Django 很简单！本教程一直在维护，更新，提供免费答疑，免费邮件咨询。
-从2015年01月18日写第一篇Django教程，一直到现在，每一篇教程由于新版 Django 一些改变，或用户的反馈，随时可能会进行更新完善，可以在网站首页看到最近更新的情况。截止2017年02月16日，此Django教程已经有4400多条评论，两年多以来，几乎每天回复评论，回复邮件。教程也根据评论进行了大量的改进，包含大量的工程经验，致力打造出中国最实用的 Django 教程。django创建第一个项目
-我在2015年初时，阅读了全部的 Django英文的官方文档，觉得国内比较好的Django学习资源不多，所以决定写自己的教程。本教程开始写的时候是 Django 的版本是 1.6，Django的更新很快，自强学堂的教程也随着更新了，兼顾了后来的新版本，从 Django 1.4 到最新的 Django 1.10 都应该都没有问题。Django 1.11 已经发布，教程也在随之更新。
- 自强学堂 就是用 Django 搭建的站点！提供书籍下载，可以在 kindle, ipad 等上阅读。
- 本教程作者:  涂伟忠(未经同意,禁止转载!)  自强学堂
-遇到问题请直接回复对应的教程，如果有截图，附件等不方便可以发邮件到 tuweizhong@163.com（一般24小时内回复）
-目前不提供QQ群，我觉得邮件可以集中处理，更高效些。
-本教程系列文章电子书下载：链接: http://pan.baidu.com/s/1pLGkPJ1 密码: gsqb（不含附件）
-除了本教程外的其它教程
-自强学堂 学习分享 的文章：Python 学习资源 和  Django 学习资源，如果有更好的教程也可以在文章下推荐哦！
-Django 是基于 Python，所有的 Django 代码都是用Python写成的。
-开发过程中遇到的各种问题可直接在相应的教程下回复该教程相关的问题
+
+<body>
+	<a href="https://github.com/zjgwhcn/zjgwhcn_biji">笔记。【寻找】捷径:喻速成的方法或手段。所谓捷径都撒满了成功者的汗水和眼泪，而你连一滴汗都没有流过，凭什么走捷径呢？</a>
+<table  border="1"  color=#FF0000>   <!--如下定义表格-->
+<tr>
+	<td><a href="http://www.chongbuluo.com/">1虫部</a></td>
+	<td><a href="http://bbs.fishc.com/forum.php">2甲鱼</a></td>
+	<td><a href="http://www.fglt.net/forum.php">3富贵</a></td>
+	<td><a href="https://www.t00ls.net/my.php?item=favorites&type=thread">4土司</a></td>
+	<td><a href="https://www.im286.net/forum.php">5落伍</a></td>
+	<td><a href="http://bbs.im520.com/?fromuid=70962">6艾米</a></td>
+	<td><a href="http://forum.cnsec.org/">7暗组</a></td>
+	<td><a href="https://www.eshuyuan.net/plugin.php?id=dsu_paulsign:sign">8E书Y</a></td>
+	<td><a href="http://www.majiamen.com/">9马甲</a></td>
+	<td><a href="http://www.chinafix.com/">A迅维</a></td>
+	<td><a href="http://www.hostloc.com/">BhtLo</a></td>
+	<td><a href="http://bbs.intohard.com/">C硬基</a></td>
+	<td><a href="http://www.fg.cc/forum.php">D老贵</a></td>
+	<td><a href="http://bbs.pediy.com/">E看雪</a></td>  
+	<td><a href="http://www.52pojie.cn/">F吾爱</a></td> 
+	<td><a href="http://bbs.myhack58.com/">0动画</a></td>
+	<td><a href="http://bbs.21manager.com.cn/forum.php">1栖谷</a></td>
+	<td><a href="https://www.chiphell.com/">2ChiP</a></td>
+	<td><a href="http://www.liukeya.com/?fromuid=3983">3克亚</a></td>
+	<td><a href="https://www.ihonker.org/portal.php">4红客</a></td>
+	<td><a href="http://www.pt80.net/">5捌零</a></td>
+	<td><a href="http://www.dreamv5.com/">6追梦</a></td>
+	<td><a href="http://www.apkbus.com/home.php?mod=space&do=notice&view=interactive">7安巴</a></th>
+	<td><a href="http://gztown.org/forum.php">8港堂</a></th>
+	<td><a href="http://www.chinapyg.com/forum.php">9飘云</a></td>	
+</tr>
+<tr>
+	<td><a href="https://github.com/zjgwhcn">1gith</td>	
+	<td><a href="http://www.jikedaohang.com/">2极导</a></td>
+	<td><a href="https://developer.android.com/studio/intro/index.html“>developer.android.com">3andr</a></td>
+	<td><a href="http://www.cnblogs.com/zjgwh/">4博园</a></td>
+	<td><a href="https://gradle.org/releases/">5grad</a></td>
+	<td><a href="http://bestsec.net/SecWeb">6安全 </a></td>
+	<td><a href="http://mp.weixin.qq.com/s/FCN6uxPywgDJktjEmxwkUQ">7ad源</a></td>
+	<td><a href="http://cn.bing.com/">8必应</td>
+	<td><a href="http://www.bloggern.com">9bggr</td>
+	<td><a href="https://zb.oschina.net/login">A开众</td>
+	<td><a href="http://bbs.crsky.com/index.php">B霏凡</a></td>
+	<td><a href="https://python.org">Cpy歌</a></td>	 
+	<td><a href="http://www.linuxidc.com/index.htm">Dlxid</a></td>
+	<td><a href="http://m.blog.csdn.net/article/details?id=46803497">E内核</a></td>
+	<td><a href="http://www.freebuf.com/">F极客</a></td>
+	<td><a href="https://accounts.google.com/">0oogle户</a></td>
+	<td><a href="https://play.google.com/apps/publish/?account=5291113703454791754#AppListPlace">1Gg开</a></td>
+	<td><a href="https://www.oschina.net/">2k源cn</a></td>
+	<td><a href="http://smx.58.com/">3tc58</a></td>
+	<td><a href="http://sanmenxia.baixing.com/">4百姓</a></td>
+	<td><a href="https://login.zbj.com/">5八戒</a></td>
+	<td><a href="http://www.680.com/">6时威</a></td>
+	<td><a href="http://www.taskcn.com/">7威中</a></td> 
+	<td><a href="http://www.w3school.com.cn/index.html">8w3c</a></td>
+	<td><a href="http://www.duanliang920.com/">9段博</a></td>	
+</tr>
+<tr>
+	<td><a href="https://www.mlook.mobi/">1mlok</a></td>
+	<td><a href="https://bbs.et8.net/bbs/">2ccf</a></td>
+	<td><a href="https://forum.eviloctal.com/">3八制</a></td>
+	<td><a href="http://0day5.com/">4漏时</a></td>
+	<td><a href="http://bbs.crsky.com/">5霏凡</a></td>
+	<td><a href="https://backgarden.net/">6后花</a></td>
+	<td><a href="https://www.lianyi.de/">7漣启</a></td>
+	<td><a href="http://www.dogn.net/main">8dogn</a></td>  
+	<td><a href="https://dream4ever.org/">9Drl</a></td>
+	<td><a href="http://www.imozhua.net/">A爪坛</a></td>	
+	<td><a href="http://it.crfly.com/login.php">B萧心</a></td>
+	<td><a href="http://bbs.huacolor.net/index.php">C华盟</a></td>
+	<td><a href="http://www.123chifan.com/forum.php">D吃饭</a></td>
+	<td><a href="https://www.itsk.com/portal.php">Eit天</a></td>  
+	<td><a href="http://www.cncisa.com/u.php">F国安</a></td>
+	<td><a href="http://www.xianzhenyuan.cn/">0仙珍</a></td>
+	<td><a href="http://bbs.yuhuagu.com/?fromuid=18501">1花谷</a></td>  
+	<td><a href="http://www.chaliblog.com/bbs/forum.php">2查理</a></td>
+	<td><a href="https://cmct.tv/">3cmct</a></td>
+	<td><a href="http://wooyun.jozxing.cc/">4乌云</a></td>
+	<td><a href="http://www.oppsu.cn/">5opsu</a></td>
+	<td><a href="https://www.zhihu.com/">6知乎</a></td>
+	<td><a href="http://u2.dmhy.org/torrents.php">7u2</a></td>	
+	<td><a href="http://blog.jobbole.com/80478/">8py编</a></td>
+	<td><a href="http://code.ziqiangxuetang.com/django/django-tutorial.html">9djag</a></td>  
+</tr>
+<tr>	
+	<td><a href="http://www.ddosi.com/2017/09/25/burp_suite/">1安全</a></td>  
+	<td><a href="/rw/html-and-css-book-code-0915/">2html</a></td>
+	<td><a href="/rw/3w-t00ls-com/index.html">3任务</a></td>
+	<td> <a href="https://github.com/zjgwhcn/windows_pentest_tools">4工具</a></td>
+	<td><a href="http://www.secbox.cn/">5安盒</a></td>
+	<td><a href="/rw/shentouceshi">6渗透</a></td><!--标签a的href属性:用于指定超链接目标的URL,也可以指向本目录或者本目录下的文件夹-->
+	<td><a href="/rw/html-and-css-book-code-0915/">7html</a></td>
+	<td><a href="https://github.com/We5ter/Scanners-Box/blob/master/README_CN.md">8工具</a></td>
+ 	<td><a href="https://www.t00ls.net/pytools.html>9工具</a></td>
+</tr>
+<tr>
+</tr>
+		
+</table>                    <!--表格定义结束-->
+</body>
+</html>
